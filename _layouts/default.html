@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; }
+      main { max-width: 860px; margin: 0 auto; padding: 24px 16px; line-height: 1.6; }
+      a { word-break: break-word; }
+      nav { margin-bottom: 16px; font-size: 14px; opacity: 0.9; }
+      code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      pre { padding: 12px; overflow: auto; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      </nav>
+      {{ content }}
+    </main>
+  </body>
+</html>
