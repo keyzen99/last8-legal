@@ -6,5 +6,5 @@ permalink: /notecheck/privacy/
 
 # Privacy Policy / プライバシーポリシー
 
-- [日本語](ja/)
-- [English](en/)
+- [日本語](ja.md)
+- [English](en.md)
